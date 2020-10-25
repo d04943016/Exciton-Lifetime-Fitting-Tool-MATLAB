@@ -15,10 +15,16 @@ First,
     MaterialName = 'text';
     
 fpath is the directory of the experimental data and the excitation light source. 
+
 savefilepath is the directory to save the extracted data.
+
 IRFfname is the file name of the excitation light source (IRF).
+
 Datafname is the file name of the experimental data.
+
 MaterialName is the material's name.
+
+
 
 Second, 
     
@@ -36,14 +42,22 @@ Second,
     
     
 set the initial condition of the exponents.
+
 BList is the prefactors of the exponenets.
+
 TauList is the exciton lifetime of the exponents.
+
 The length of the parameters is equal to the number of exponents.
 
+
 Bias is the bias value/error level.
+
 t0 is the time difference between the experimental data and the excitation light source (IRF). (time shift)
 
+
 Bool lists are used to specified whether the corresponding parameters need to be fitted or not. 
+
+
 
 
 Third, 
@@ -60,6 +74,7 @@ Last,
     
 convBool: True:  multiexponential decays (lifetime funcion) would convolute with excitation light source (IRF).  
                  i.e. predicted function = lifetime funcion * IRF
+    
     
 And the parameters are determined by minimizing chisquare = sum( (yfit(index) - ydata(index)).^2./ydata(index) ).
     
