@@ -5,7 +5,7 @@ This program is built on MATLAB and the main function is in LifeTimeFittorMain.m
 
 There are four parts need to be modified/specified to fit the experimental data in LifeTimeFittorMain.m.
 
-First,
+**First,
 
     %% measured data file information
     fpath = './data/';
@@ -26,7 +26,8 @@ MaterialName is the material's name.
 
 
 
-Second, 
+
+**Second, 
     
     %% set initial conditions
     % lifetime funcion = Bias + B1*exp(-(t-t0)/tau1) + B2*exp(-(t-t0)/tau2) + B3*exp(-(t-t0)/tau3) + .....   
@@ -60,14 +61,16 @@ Bool lists are used to specified whether the corresponding parameters need to be
 
 
 
-Third, 
+
+**Third, 
 
     %% set fitting time range (e.x. unit : us)
     tstart = -0.2;
     tend = inf;
     
     
-Last,
+
+**Last,
 
     %% convolution bool
     convBool = true;
