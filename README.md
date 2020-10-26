@@ -1,6 +1,5 @@
 # Exciton-Lifetime-Fitting-Tool-MATLAB
-Extract the multi-exponential lifetimes from experiments
-
+Extract the multi-exponential lifetimes from experiments \<br>
 This program is built on MATLAB and the main function is in LifeTimeFittorMain.m.
 
 There are four parts need to be modified/specified to fit the experimental data in LifeTimeFittorMain.m.
