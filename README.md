@@ -32,13 +32,13 @@ Second,
     % lifetime funcion = Bias + B1*exp(-(t-t0)/tau1) + B2*exp(-(t-t0)/tau2) + B3*exp(-(t-t0)/tau3) + .....   
     para.BList      = [  1.118370, 0.003497];   % the list of exponentials' coefficients
     para.BListBool  = [      true,     true];   % true : optimized, false : fixed
-    para.TauList    = [  0.016760, 3.206402];   % the list of tau/lifetime
+    para.TauList    = [  0.016760, 3.206402];   % the list of tau/lifetime (e.x. unit : us)
     para.TauListBool= [      false,    true];   % true : optimized, false : fixed
     
     para.Bias     = [0.000138];        % bias (single value)
-    para.BiasBool = [true];     % true : optimized, false : fixed
-    para.t0       = [0.011925];        % time shift
-    para.t0Bool   = [true];     % true : optimized, false : fixed
+    para.BiasBool = [true];            % true : optimized, false : fixed
+    para.t0       = [0.011925];        % time shift (e.x. unit : us)
+    para.t0Bool   = [true];            % true : optimized, false : fixed
     
     
 set the initial condition of the exponents.
@@ -62,7 +62,7 @@ Bool lists are used to specified whether the corresponding parameters need to be
 
 Third, 
 
-    %% set fitting time range (unit : us)
+    %% set fitting time range (e.x. unit : us)
     tstart = -0.2;
     tend = inf;
     
