@@ -75,6 +75,8 @@ The program would automatically save the excitation data and the measured in the
 <img src="https://github.com/d04943016/Exciton-Lifetime-Fitting-Tool-MATLAB/blob/main/Test/Test/Test_Data_IRF.jpg" width="800"/>
 <img src="https://github.com/d04943016/Exciton-Lifetime-Fitting-Tool-MATLAB/blob/main/Test/Test/Test_2exp_MeasuredFitted.jpg" width="800"/>
 
+Besides, the program would also automatically save a figure with both fitted data and the measured data.
+
 <img src="https://github.com/d04943016/Exciton-Lifetime-Fitting-Tool-MATLAB/blob/main/Test/Test/Test_2exp_MeasuredFitted.jpg" width="800"/>
 
 , where data 1 and data 2 are the first exponent and the second exponent, respectively.
