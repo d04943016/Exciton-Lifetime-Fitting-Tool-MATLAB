@@ -68,7 +68,7 @@ And the parameters are determined by minimizing chisquare = sum( (yfit(index) - 
     
 All the results would be saved in the specified save file path, and also show on the MATLAB command line.
 
-<img src="https://github.com/d04943016/Exciton-Lifetime-Fitting-Tool-MATLAB/blob/main/Test/Test/CommandLine.jpg" width="100"/>
+<img src="https://github.com/d04943016/Exciton-Lifetime-Fitting-Tool-MATLAB/blob/main/Test/Test/CommandLine.jpg" width="500"/>
 
 
 
