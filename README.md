@@ -70,6 +70,15 @@ All the results would be saved in the specified save file path, and also show on
 
 <img src="https://github.com/d04943016/Exciton-Lifetime-Fitting-Tool-MATLAB/blob/main/Test/Test/CommandLine.jpg" width="800"/>
 
+<img src="https://github.com/d04943016/Exciton-Lifetime-Fitting-Tool-MATLAB/blob/main/Test/Test/Test_2exp_MeasuredFitted.jpg" width="800"/>
+
+, where data 1 and data 2 are the first exponent and the second exponent, respectively.
+
+<img src="https://github.com/d04943016/Exciton-Lifetime-Fitting-Tool-MATLAB/blob/main/Test/Test/Test_2exp_chisquare_time.jpg" width="800"/>
+
+shows the \chi^2 data, indicating the difference between fitted data and the measured data over the time.
+
+
 
 
 
