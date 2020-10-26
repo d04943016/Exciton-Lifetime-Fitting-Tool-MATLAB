@@ -1,8 +1,7 @@
 # Exciton-Lifetime-Fitting-Tool-MATLAB
 Extract the multi-exponential lifetimes from experiments <br/>
-This program is built on MATLAB and the main function is in LifeTimeFittorMain.m.
-
-There are four parts need to be modified/specified to fit the experimental data in LifeTimeFittorMain.m.
+This program is built on MATLAB and the main function is in LifeTimeFittorMain.m. <br/>
+There are four parts need to be modified/specified to fit the experimental data in LifeTimeFittorMain.m. <br/>
 
 #### First,
 
@@ -13,15 +12,11 @@ There are four parts need to be modified/specified to fit the experimental data 
     Datafname = 'testdata.txt';
     MaterialName = 'text';
     
-fpath is the directory of the experimental data and the excitation light source. 
-
-savefilepath is the directory to save the extracted data.
-
-IRFfname is the file name of the excitation light source (IRF).
-
-Datafname is the file name of the experimental data.
-
-MaterialName is the material's name.
+fpath is the directory of the experimental data and the excitation light source.  <br/>
+savefilepath is the directory to save the extracted data. <br/>
+IRFfname is the file name of the excitation light source (IRF). <br/>
+Datafname is the file name of the experimental data. <br/>
+MaterialName is the material's name. <br/>
 
 
 
@@ -40,21 +35,14 @@ MaterialName is the material's name.
     para.t0Bool   = [true];            % true : optimized, false : fixed
     
     
-set the initial condition of the exponents.
-
-BList is the prefactors of the exponenets.
-
-TauList is the exciton lifetime of the exponents.
-
-The length of the parameters is equal to the number of exponents.
-
-
-Bias is the bias value/error level.
-
-t0 is the time difference between the experimental data and the excitation light source (IRF). (time shift)
-
-
-Bool lists are used to specified whether the corresponding parameters need to be fitted or not. 
+set the initial condition of the exponents. <br/>
+BList is the prefactors of the exponenets. <br/>
+TauList is the exciton lifetime of the exponents. <br/>
+The length of the parameters is equal to the number of exponents. <br/>
+<br/>
+Bias is the bias value/error level. <br/>
+t0 is the time difference between the experimental data and the excitation light source (IRF). (time shift) <br/>
+Bool lists are used to specified whether the corresponding parameters need to be fitted or not.  <br/>
 
 
 
@@ -73,11 +61,9 @@ Bool lists are used to specified whether the corresponding parameters need to be
     %% convolution bool
     convBool = true;
     
-convBool: True:  multiexponential decays (lifetime funcion) would convolute with excitation light source (IRF).  
-                 i.e. predicted function = lifetime funcion * IRF
-    
-    
-And the parameters are determined by minimizing chisquare = sum( (yfit(index) - ydata(index)).^2./ydata(index) ).
+convBool: True:  multiexponential decays (lifetime funcion) would convolute with excitation light source (IRF).   <br/>
+                 i.e. predicted function = lifetime funcion * IRF <br/>
+And the parameters are determined by minimizing chisquare = sum( (yfit(index) - ydata(index)).^2./ydata(index) ). <br/>
     
     
 All the results would be saved in the specified save file path, and also show on the MATLAB command line.
