@@ -76,7 +76,7 @@ All the results would be saved in the specified save file path, and also show on
 
 <img src="https://github.com/d04943016/Exciton-Lifetime-Fitting-Tool-MATLAB/blob/main/Test/Test/Test_2exp_chisquare_time.jpg" width="800"/>
 
-shows the \chi^2 data, indicating the difference between fitted data and the measured data over the time.
+shows the $\chi^2$ data, indicating the difference between fitted data and the measured data over the time.
 
 
 
