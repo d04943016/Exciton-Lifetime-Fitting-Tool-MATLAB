@@ -79,3 +79,5 @@ convBool: True:  multiexponential decays (lifetime funcion) would convolute with
 And the parameters are determined by minimizing chisquare = sum( (yfit(index) - ydata(index)).^2./ydata(index) ).
     
     
+All the results would be saved in the specified save file path, and also show on the MATLAB command line.
+
