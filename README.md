@@ -66,9 +66,14 @@ convBool: True:  multiexponential decays (lifetime funcion) would convolute with
 And the parameters are determined by minimizing chisquare = sum( (yfit(index) - ydata(index)).^2./ydata(index) ). <br/>
     
     
-All the results would be saved in the specified save file path, and also show on the MATLAB command line.
+All the fitted results would be saved in the specified save file path, and also show on the MATLAB command line.
 
 <img src="https://github.com/d04943016/Exciton-Lifetime-Fitting-Tool-MATLAB/blob/main/Test/Test/CommandLine.jpg" width="800"/>
+
+The program would automatically save the excitation data and the measured in the save file path.
+
+<img src="https://github.com/d04943016/Exciton-Lifetime-Fitting-Tool-MATLAB/blob/main/Test/Test/Test_Data_IRF.jpg" width="800"/>
+<img src="https://github.com/d04943016/Exciton-Lifetime-Fitting-Tool-MATLAB/blob/main/Test/Test/Test_2exp_MeasuredFitted.jpg" width="800"/>
 
 <img src="https://github.com/d04943016/Exciton-Lifetime-Fitting-Tool-MATLAB/blob/main/Test/Test/Test_2exp_MeasuredFitted.jpg" width="800"/>
 
@@ -76,9 +81,10 @@ All the results would be saved in the specified save file path, and also show on
 
 <img src="https://github.com/d04943016/Exciton-Lifetime-Fitting-Tool-MATLAB/blob/main/Test/Test/Test_2exp_chisquare_time.jpg" width="800"/>
 
-shows the $\chi^2$ data, indicating the difference between fitted data and the measured data over the time.
+shows the chi square data, indicating the difference between fitted data and the measured data over the time.
 
+<img src="https://github.com/d04943016/Exciton-Lifetime-Fitting-Tool-MATLAB/blob/main/Test/Test/Test_2exp_residuals_time.jpg" width="800"/>
 
-
+shows the residual between the fitted data and the measured data over time.
 
 
