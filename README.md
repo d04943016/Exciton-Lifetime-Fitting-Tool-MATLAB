@@ -70,10 +70,9 @@ All the fitted results would be saved in the specified save file path, and also 
 
 <img src="https://github.com/d04943016/Exciton-Lifetime-Fitting-Tool-MATLAB/blob/main/Test/Test/CommandLine.jpg" width="800"/>
 
-The program would automatically save the excitation data and the measured in the save file path.
+The program would automatically save the excitation data in the save file path.
 
 <img src="https://github.com/d04943016/Exciton-Lifetime-Fitting-Tool-MATLAB/blob/main/Test/Test/Test_Data_IRF.jpg" width="800"/>
-<img src="https://github.com/d04943016/Exciton-Lifetime-Fitting-Tool-MATLAB/blob/main/Test/Test/Test_2exp_MeasuredFitted.jpg" width="800"/>
 
 Besides, the program would also automatically save a figure with both fitted data and the measured data.
 
