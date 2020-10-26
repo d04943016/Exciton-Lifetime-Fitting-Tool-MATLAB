@@ -80,9 +80,11 @@ Besides, the program would also automatically save a figure with both fitted dat
 
 , where data 1 and data 2 are the first exponent and the second exponent, respectively.
 
+The program would show the error analysis between the fitted data and the measured data.
+
 <img src="https://github.com/d04943016/Exciton-Lifetime-Fitting-Tool-MATLAB/blob/main/Test/Test/Test_2exp_chisquare_time.jpg" width="800"/>
 
-shows the chi square data, indicating the difference between fitted data and the measured data over the time.
+shows the chi square data, indicating the difference between the fitted data and the measured data over the time.
 
 <img src="https://github.com/d04943016/Exciton-Lifetime-Fitting-Tool-MATLAB/blob/main/Test/Test/Test_2exp_residuals_time.jpg" width="800"/>
 
