@@ -1,0 +1,18 @@
+Convolution Mode : on
+Initial Conditions : 
+============================================
+B0 (exponential strength) : 1.118370 0.003497 
+tau0 (lifetime, us) : 0.016760 3.206402 
+Bias0 : 0.000138
+t00 : 0.011925
+
+Fitted Data : 
+============================================
+B (exponential strength) : 1.118364 0.003497 
+Normalized B (exponential strength) : 0.996883 0.003117 
+tau (lifetime, us) : 0.016760 3.206879 
+Relative strength (%) (B_i*tau_i/sum(B_i*tau_i)) : 0.625657 0.374343 
+Bias : 0.000138
+t0 : 0.011925
+chisquare : 0.064324 
+Correlation coefficients : 0.998901 
